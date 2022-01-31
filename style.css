@@ -32,6 +32,31 @@ article img{
   color: red;
 }
 
+#primo:hover{
+  content: url("img/1b.webp");
+  width: 100%;
+}
+#secondo:hover{
+  content: url("img/2b.webp");
+  width: 100%;
+}
+#terzo:hover{
+  content: url("img/3b.webp");
+  width: 100%;
+}
+#quarto:hover{
+  content: url("img/4b.webp");
+  width: 100%;
+}
+#quinto:hover{
+  content: url("img/5b.webp");
+  width: 100%;
+}
+#sesto:hover{
+  content: url("img/6b.webp");
+  width: 100%;
+}
+
 .heart{
   position: absolute;
   right: 0;
