@@ -1,0 +1,75 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container{
+  width: 60%;
+  height: auto;
+  margin: auto;
+}
+
+article img{
+  width: 100%;
+  height: 100%;
+}
+
+.item{
+  width: calc(100% / 3 - 15px);
+  height: calc(100% / 2 - 10px);
+  display: inline-block;
+  margin-top: 30px;
+  margin-right: 10px;
+}
+
+.article-image{
+  position: relative;
+}
+
+.article-image:hover .heart{
+  color: red;
+}
+
+.heart{
+  position: absolute;
+  right: 0;
+  top: 20px;
+  background-color: white;
+  padding: 5px;
+  font-size: 30px;
+}
+
+.article-label{
+  position: absolute;
+  bottom: 20px;
+  color: white;
+  font-size: 12px;
+}
+
+.discount{
+  background-color: red;
+}
+
+.eco{
+  background-color: green;
+}
+
+.article-info-model{
+  display: block;
+}
+.article-info-plus{
+  display: block;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.article-info-price{
+  color: red;
+  font-weight: bold;
+  font-size: 15px;
+}
+.article-info-discount{
+  text-decoration: line-through;
+  font-size: 15px;
+}
